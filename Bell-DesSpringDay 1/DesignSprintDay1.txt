@@ -1,0 +1,110 @@
+                                                Design Sprint Day 1
+Scenarios
+- Ace is a college senior in Dallas, at a private university, majoring in English. He in is his
+advanced English Literature class and has just been informed of a class project that 
+will be focused on different periods of literature, the impact of them on modern day 
+literature, how it was used and the impact of it on that time period. 
+
+Each group is required to split up the work and to work together and collaborate
+in order to get this project done successfully. Each person in the group is required
+to do their own portion and contribute to the group equally and pull their own weight.
+Due to this, Ace suggests that the group uses Task Management Software Service for 
+the project. This Task Management Software Service would be in place so that each 
+group member could be assigned their own tasks that they need to do for the project, 
+set remainders and notifications for their tasks, allow them to be able to see the progress 
+of each member. In addition, each member when a task is done will have the option to upload
+their work when they mark the task as done so that each team member can not only see that 
+one of them has completed the task, but they can see not only the work, but the quality of it as well. 
+There will even be a section below each task done for feedback so everyone can get feedback
+on the work they have done, know how to do it better next time, and can be commended 
+on a job well done. 
+
+The Task Management Software Service will help to make sure the work is split up, 
+that everyone in the group collaborates with one another, that each person pulls their 
+own weight, does their own portion, and contribute to the group equally. 
+
+- Jennifer works for a software firm, in Sweden where she leads a team of eight 
+programmers. She has decided that there has to be some software where there can be 
+communication and help her to time manage her team better than she currently is. She 
+is looking for a software where she can know how many hours each person puts in, where 
+each person can ask for help and other people can help when problems arises. She wishes
+for a software where the programamers can create tasks that they need to do and show 
+progress and where they are currently at. She wants to be able to add and remove 
+people as she wishes and be able to manage her entire team. 
+
+Jennifer sends an email out to a software company workers' group to see if anyone can
+recommend an appropriate system. Two people reply and both suggest that she uses the
+Task Management Software Service, a software that would allow her to be the 
+adminstrator of the group and be able to manage her team. As she has never used the
+Task Management Software Service before, she sets up an adminstrator account and
+an account for employees with the Task Management Software Service. 
+ 
+She logs in to it and sees herself as an administrator, showing that she has control to add, 
+delete, and modify users (employees), group boards filled with work, and even comments. She gets a 
+board set up so that each user can immediately start working and begin documentation
+of tasks and progress once they log in. 
+
+User Stories
+- As a group member, I want to be able to show my progress and what I've done
+- As a group member, I want to be able to leave feedback for my fellow members 
+on what they have done so I can be able to commend them on a job well done
+- As a group member,  I want to be able to upload my work so that I can show what I 
+have done
+- As a group member, I want to be able to see what other members of my team have 
+completed and how far they have come
+- As a group member, I want to see how much we have all completed together and know
+how much progress we all have made in regards to the group project 
+- As an administrator, I want to be able add new users whenever the company hires a 
+new employee
+- As an administrator, I need to be able to delete offensive and unhelpful comments
+- As an administrator, I want to be able to assign tasks to be done in a timely manner
+- As an administrator, I want to be able to have only incomplete tasks shown so my 
+users and I can be able to focus on the tasks needing to be done
+
+Features List
+1) Comments
+Description
+- As a group member, I want to be able to leave feedback for my fellow members 
+on what they have done so I can be able to commend them on a job well done
+- As an administrator, I need to be able to delete offensive and unhelpful comments
+
+Constraints
+- Administrators should be the only one to delete comments
+
+Comments
+- Based on Ace's and Jennifer's scenarios
+
+2) Progress Indication
+Description
+- As a group member, I want to be able to show my progress and what I've done
+As a group member,  I want to be able to upload my work so that I can show what I 
+have done
+- As a group member, I want to be able to see what other members of my team have 
+completed and how far they have come
+- As a group member, I want to see how much we have all completed together and know
+how much progress we all have made in regards to the group project 
+- As an administrator, I want to be able to have only incomplete tasks shown so my 
+users and I can be able to focus on the tasks needing to be done
+
+Constraints
+- Progress indicators will be green when a task is complete, yellow when a task is in progress, and red 
+when a task has not yet been started. Tasks that are green will be moved to the progress page (where all progress
+is shown for the whole group and individual members) so it is not shown when they open the app to see the to-do-list listing 
+what tasks are in progress and what tasks still need to be started. 
+
+Comments
+- Based on Ace's and Jennifer's scenarios
+
+3) Admin Setup
+Description
+- As an administrator, I want to be able add new users whenever the company hires a 
+new employee
+- As an administrator, I want to be able to assign tasks to be done in a timely manner
+
+Constraints
+-This should only be done by someone who is in the role of administrator. Only administrators are 
+allowed to assign tasks and add users. All users must have a username
+consisting of their email and a password with at least 8 letters, a number, and a symbol.
+
+Comments 
+- Based on Jennifer's scenario
