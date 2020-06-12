@@ -1,0 +1,110 @@
+/* CSS Document */
+html { 
+ 	background: url("../assets/Background.png") no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+	position:relative;
+	overflow-x: hidden;
+}
+
+#logo{
+	height: 40px;
+	width: 70px;
+	right: 0;
+	top: 15px;
+	display: block;
+	position: absolute;
+}
+
+#logout{
+	right: 80px;
+	top: 25px;
+	position: absolute;
+	border: 1px solid white;
+	padding: 0.5% 1%;
+	display: block;
+}
+
+#logout:hover {
+	border: 1px solid gray;
+}
+
+#logoutButton {
+	text-decoration: none;
+	font: "Trebuchet MS";
+	color: white;
+	font-size: 10%;
+	display: block;
+}
+
+#logoutButton:hover {
+	color: gray;
+}
+
+.notificationsPanel {
+	height: 60%;
+	width: 80%;
+	margin-top: 5%;
+	margin-right: 2%;
+	float: right;
+	position: relative;
+	display: block;
+}
+
+.notification {
+	box-shadow: 1px 1px 1px 1px;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.notificationIcon {
+	display: inline-block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+}
+
+.notificationContent{
+	font-size: 2em;
+	font: "Segoue UI";
+	display: inline-block;
+	position: absolute;
+}
+
+.timestamp {
+	font-size: 1.2em;
+	display: inline-block;
+	font: "Trebuchet MS";
+	color: gray;
+	position: absolute;
+	right: 100px;
+	margin-top: 30px;
+}
+
+.dismissButton {
+	display: inline-block;
+	right: 5px;
+	margin-top: 20px;
+	position: absolute;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.dismissButton:hover {
+	cursor: pointer;
+}
+
+.userContent {
+	color: #5ba2f5;
+}
+
+.taskContent {
+	color: #5ba2f5;
+}
+
+.actionContent {
+	color: #707070;
+}
