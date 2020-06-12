@@ -44,8 +44,8 @@ html {
 }
 
 .sidenav-extended {
-	opacity: 0.75;
 	display: none;
+	top: 8px;
 	width: 554px;
 	height: 100%;
 	background-image: url("../assets/Sidenav-Extended.png");
