@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="menu.js"></script>
+</head>
+
+<body>
+	<div class="sidenav">
+		<div class="profileSection">
+			<a href="#profileSetup"><img class="exampleProfilePic" src="assets/Profile_Img.png" alt="Profile Image"></a>
+		</div>
+		
+		<div class="buttonGroup">
+			<a id="dashboard" href="index.html"><img class="sidebarDash" src="assets/Sections.png" alt="Dashboard"></a>
+			<a id="people" href="#people"><img class="sidebarPeople" src="assets/profile.png" alt="People"></a>
+			<a id="notifications" href="#notifications"><img class="sidebarNotif" src="assets/Alert.png" alt="Nofifications"></a>
+			<a id="mainMenu" href="#mainMenu" onClick="openCloseNav();"><img class="sidebarMain" src="assets/Menu.png" alt="Main Menu"></a>
+		</div>
+	</div>
+	
+	<div class="sidenav-extended">
+		<ul>
+			<li><a id="admin" href="#adminSettings">Admin Settings</a><img src="assets/Right-arrow-small.png" alt="right-arrow"></li>
+			<li><a id="manage-tasks" href="#manageTasks" onClick="openCloseSubMenu();">Manage Tasks</a><img src="assets/Forward-arrow-small.png" alt="right-arrow"></li>
+			<div id="submenu">
+				<ul>
+					<li><a id="addTask" href="#addTask">Add Task</a></li>
+					<li><a id="editTask" href="#editTask">Edit Task</a></li>
+					<li><a id="removeTask" href="#removeTask">Remove Task</a></li>
+				</ul>
+			</div>
+			<li><a id="calendar" href="#Calendar">Calendar</a><img src="assets/Right-arrow-small.png" alt="right-arrow"></li>
+			<li><a id="time" href="#recordTime">Record Time</a><img src="assets/Right-arrow-small.png" alt="right-arrow"></li>
+			<li><a id="feed" href="#activityFeed">Activity Feed</a><img src="assets/Right-arrow-small.png" alt="right-arrow"></li>
+		</ul>
+		<img id="closeMenu" alt="back arrow" src="assets/Backward-arrow.png" onClick="openCloseNav();">
+	</div>
+	
+	
+</body>
+	
+</html>

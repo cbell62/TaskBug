@@ -1,0 +1,97 @@
+/* CSS Document */
+html { 
+ 	background: url("../assets/Background.png") no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+	position:relative;
+}
+
+.sidenav {
+	height: 100%;
+  	width: 178px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #8D4F42;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.profileSection {
+	text-align: center;
+}
+
+.sidenav a {
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	display: block;
+	font: "Trebuchet MS";
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.buttonGroup a:hover {
+	background-color: #B87668;
+}
+
+.buttonGroup {
+	text-align: center;
+	margin-top: 75%;
+}
+
+.sidenav-extended {
+	opacity: 0.75;
+	display: none;
+	width: 554px;
+	height: 100%;
+	background-image: url("../assets/Sidenav-Extended.png");
+	overflow-x: hidden;
+	position: fixed;
+}
+
+.sidenav-extended ul {
+	list-style: none;
+}
+
+.sidenav-extended ul li {
+	padding: 20px;
+}
+
+.sidenav-extended ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+	font: "Trebuchet MS";
+	color: #5D5D5D;
+	padding-left: 178px;
+	padding-right: 40px;
+}
+
+.sidenav-extended ul li a:hover {
+	color: #808080;
+}
+
+.sidenav-extended ul li img {
+	float: right;
+	margin-right: 70px;
+}
+
+#submenu {
+	display: none;
+}
+
+#closeMenu {
+	position: fixed;
+	margin-left: 500px;
+	top: 120px;
+}
+
+#closeMenu:hover {
+	cursor: pointer;
+	filter: brightness(2);
+}
+	
