@@ -12,7 +12,7 @@ html {
 	height: 100%;
   	width: 178px;
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 	top: 0;
 	left: 0;
 	background-color: #8D4F42;
@@ -51,6 +51,7 @@ html {
 	background-image: url("../assets/Sidenav-Extended.png");
 	overflow-x: hidden;
 	position: fixed;
+	z-index: 9;
 }
 
 .sidenav-extended ul {
