@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	color: #FFFFFF;
+}
+
+.box {
+    position: fixed;
+    top: 343px;
+    background-color: #8D4F42;
+    display: block;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+	padding-bottom: 15px;
+}
+
+body {
+background-image: url("../Background.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+
+button{
+background-color: #8D4F42; 
+border-color:white; 
+}
+
+a
+{
+text-decoration:none;
+color:white;
+}
