@@ -2,6 +2,7 @@
 /* CSS Document */
 html {
 	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 .box {
@@ -12,7 +13,15 @@ html {
     text-align: center;
     width: 100%;
     left: 0%;
-	padding-bottom: 15px;
+	padding: 15px;
+}
+
+
+.description {
+	margin: auto;
+	width: 615px;
+	text-align: center;
+	padding: 15px;
 }
 
 body {
@@ -20,15 +29,24 @@ background-image: url("../Background.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size:cover;
+margin: auto;
 }
 
-button{
-background-color: #8D4F42; 
-border-color:white; 
+.buttons{
+	margin: auto;
+	padding: 15px;
 }
 
 a
 {
 text-decoration:none;
 color:white;
+}
+
+.copyright{
+	font-size: 18px;
+	padding: 10px 20px 10px 10px;
+	position:absolute;
+    bottom:0;
+    right:0;
 }
