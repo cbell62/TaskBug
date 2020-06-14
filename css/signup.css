@@ -28,7 +28,7 @@ button {
         margin: 10px 0px;   
         border: none;   
         cursor: pointer;  
-         }   
+        }   
 
  form {   
         border: 3px solid #f1f1f1;  
@@ -72,6 +72,7 @@ h1
 {
 text-align: center;
 color: white;
+font-size: 98%;
 }
 
 body
@@ -99,3 +100,7 @@ a
 {
 text-decoration:none;
 }
+
+
+
+
