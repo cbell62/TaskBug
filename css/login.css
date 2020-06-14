@@ -5,17 +5,6 @@ html {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-#x {
-     width: 18px;
-     margin-top: 1px;
-     margin-right: 2px;
-     position:absolute;
-     top:0;
-     right:0;
-     left:2;
-     color: black;
-     background color:none;
-}
 label{
 color: #8D4F42;
 }
@@ -71,6 +60,12 @@ h1
 {
 text-align: center;
 color: white;
+font-size: 98%;
+}
+
+p{
+color: black;
+text-align: center;
 }
 
 body
@@ -91,12 +86,16 @@ background-size:cover;
     left: 0px;
     background: rgba(0, 0, 0, 0.7);
 }
-   
-
 
 a
 {
 text-decoration:none;
 }
 
-
+.copyright{
+	font-size: 18px;
+	padding: 10px 20px 10px 10px;
+	position:absolute;
+    bottom:0;
+    right:0;
+}
