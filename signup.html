@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>signup</title>
 	<link href="css/signup.css" rel="stylesheet" type="text/css">
 </head>
 	
 <body>
-	
-	<div class="box">
-		<label for="name"><b>Name</b></label>
+<form>	
+	<div class="container">
+		<label for="name">Name</label>
 		<input type="text" placeholder="Enter Name" name="name" required>
 
-		<label for="email"><b>Email</b></label>
-		<input type="text" placeholder="Enter Email" name="email" required>
-
-		<label for="psw"><b>Password</b></label>
-		<input type="password" placeholder="Enter Password" name="psw" required>
+		<label>Email </label>   
+            	<input type="text" placeholder="Enter Email" name="email" required>  
 		
-		<img src="assets/create.png">
+		<label>Password </label>   
+            	<input type="password" placeholder="Enter Password" name="password" required> 
+		
+		<button type="submit"> <a href="#" style="color:white">CREATE ACCOUNT</a></button>    
 	</div>
-
+<div class="signupbox">
+	<div>
+	<div><input id="x" type="submit" value="X"></div>
+	</div>
+	<h1 style="white"> SIGN UP </h1>
+	</div>
+</form>
+<div class="overlay"></div>
 </body>
 	
 </html>
