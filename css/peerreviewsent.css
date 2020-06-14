@@ -52,3 +52,11 @@ text-decoration:none;
 color: #8D4F42;
 font-size: 17px
 }
+
+.copyright{
+	font-size: 18px;
+	padding: 10px 20px 10px 10px;
+	position:absolute;
+    bottom:0;
+    right:0;
+}
