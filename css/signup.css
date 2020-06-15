@@ -5,27 +5,102 @@ html {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-.box{
-	background-color: #FFF;
-	top: 305px;
-	color: #8D4F42;
-	width: 554px;
-	height: 567px;
-	margin: auto;
-	align-content: center;
-	display: block;
-	padding: 15px;
+#x {
+     width: 18px;
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+     left:2;
+     color: black;
+     background color:none;
 }
 
-body {
-background-image: url("../assets/Background.png");
+label{
+color: #8D4F42;
+}
+
+button {   
+       background-color: #8D4F42;   
+       	width: 100%;    
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        }   
+
+ form {   
+        border: 3px solid #f1f1f1;  
+    }   
+
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px blackn;   
+        box-sizing: border-box;  
+    } 
+ 
+button:hover {   
+        opacity: 0.7;   
+    } 
+
+.container {   
+        padding: 25px;   
+        background-color: white; 
+	position: absolute;
+	z-index: 9;
+	top: 200px;
+	right: 30%;
+	width:450px
+    }  
+
+.signupbox {
+	padding: 10px 10px;   
+        background-color: #8D4F42; 
+	position: absolute;
+	z-index: 9;
+	top: 150px;
+	right: 30%;
+	height:50px;
+	width:480px;
+}
+
+h1 
+{
+text-align: center;
+color: white;
+font-size: 98%;
+}
+
+body
+{
+background-image:url('../assets/Background.png');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size:cover;
 }
 
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+   
+
+
 a
 {
 text-decoration:none;
 }
+
+
+
 
