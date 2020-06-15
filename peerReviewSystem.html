@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/peerReviewStyles.css">
+	<script type="text/javascript" src="js/peerReview.js"></script>
+	<title>TaskBug - Peer Review</title>
+</head>
+	
+<body>
+	
+<div class="container"> 
+	<div class="peerReviewHeader">
+		<label id="headingText"> Peer Review </label>
+		<a href="index.html"> <img id="cancel" alt="cancel" src="assets/Cancel-White.png"> </a>
+	</div> 
+	<ul id="taskInfo">
+		<li><span class="listItems">Task Name Example... </span></li>
+		<li><span class="listItems">Due: June 8th at 8:39pm</span></li>
+		<li><span class="listItems">Date Started: June 4 at 12:00pm</span></li>
+		<li><span class="listItems">Time Spent: 00:08:24</span></li>
+	</ul>
+	<div class="description">
+		<label id="descriptionLabel"> Description </label>
+		<p id="descriptionContent"> This is a description of the task completed </p>
+	</div>
+    <div class="comments">
+		<img id="commentHeader" alt="comments" src="assets/Comment.png"> 
+		<textarea rows="5" id="commentBox" type="text" placeholder="Type something" ></textarea>  
+	</div> 
+	
+	<div class="lowerRightForm">
+		<div class="rating">
+			<img alt="Rating" id="ratingHeader" src="assets/Rate.png">
+			<img alt="Rating Star 1" src="assets/DeselectedStar.png" class="star" id="1" onClick="myFunction(this);">
+			<img alt="Rating Star 2" src="assets/DeselectedStar.png" class="star" id="2" onClick="myFunction(this);">
+			<img alt="Rating Star 3" src="assets/DeselectedStar.png" class="star" id="3" onClick="myFunction(this);">
+			<img alt="Rating Star 4" src="assets/DeselectedStar.png" class="star" id="4" onClick="myFunction(this);">
+			<img alt="Rating Star 5" src="assets/DeselectedStar.png" class="star" id="5" onClick="myFunction(this);">
+		</div>	
+	<a href="#submit"><img alt="Send Button" id="sendButton" src="assets/Send.png"></a>
+	</div>
+	
+</div>
+
+<div class="overlay"></div>
+	
+</body>
+	
+</html>

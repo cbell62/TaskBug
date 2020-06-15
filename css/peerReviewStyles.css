@@ -1,0 +1,170 @@
+/* CSS Document */
+html {
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body {
+	background-image:url('../assets/background2.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+input[type=text] {   
+    width: 20;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px black;   
+    box-sizing: border-box; 
+}
+
+.container {     
+    background-color: white; 
+	position: fixed;
+	display: inline-block;
+	z-index: 9;
+	top: 50%;
+	left: 50%;
+	margin-top: -20%;
+	margin-left: -25%;
+	width: 60%;
+	height: 60%;
+}  
+
+.peerReviewHeader {
+	width: 100%;
+	position: relative;
+	background-color: #8D4F42;
+}
+
+#headingText {
+	display: inline-block;
+	text-align: center;
+	width: 90%;
+	padding: 2% 0;
+	font-size: 24px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: normal;
+}
+
+#cancel {
+	text-align: right;
+	height: 25px;
+	width: 25px;
+}
+
+#cancel:hover {
+	cursor: pointer;
+}
+
+#taskInfo {
+	color: gray;
+	font: arial;
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+li {
+	padding: 3% 0px;
+}
+
+.listItems {
+	color: gray;
+	font: arial;
+	font-size: 18px;
+}
+
+.description {
+	display: inline-block;
+	padding-top: 1%;
+	float: right;
+	margin-right: 2%;
+	width: 55%;
+}
+
+#descriptionLabel {
+	color: #8D4F42;
+	font-weight: bold;
+}
+
+#descriptionContent {
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: gray;
+	padding: 2%;
+	padding-bottom: 12%;
+} 
+
+.comments {
+	display: inline-block;
+	width: 45%;
+	margin-top: 2%;
+}
+
+#commentHeader {
+	width: 30%;
+	height: 30%;
+	margin-left: 4%;
+}
+
+#commentBox {
+	width: 100%;
+	height: 110%;
+	margin-left: 4%;
+	resize: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #515151;
+}
+
+.lowerRightForm {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	float: right;
+}
+
+.rating {
+	float: right;
+	margin-top: 5%;
+	vertical-align: top;
+}
+
+#ratingHeader {
+	width: 30%;
+	height: 30%;
+}
+
+.star {
+	width: 7%;
+	height: 7%;
+	margin-bottom: 3%;
+	margin-left: 1%;
+}
+
+.star:hover {
+	cursor: pointer;
+}
+
+#sendButton {
+	float: right;
+	margin-top: 20%;
+	margin-right: 20%;
+	height: 40%;
+	width: 60%
+}
