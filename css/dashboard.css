@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Completed_Class {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+		left: 1060px;
+		top: 181px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Trebuchet MS;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+.To_Do_Class {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		left: 245px;
+		top: 178px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Trebuchet MS;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+.requestHelp {
+		position: absolute;
+		left: 310px;
+		overflow: visible;
+		cursor: pointer;
+}
+
+.LOGO5 {
+		opacity: 0.71;
+		position: absolute;
+		height: 95px;
+		right: 11px;
+		top: 11px;
+		overflow: visible;
+	}
+
+.Logout{
+		position: absolute;
+		right: 150px;
+		top: 45px;
+		overflow: visible;
+}
+
+.copyright_ {
+		opacity: 0.71;
+		position: absolute;
+		height: 30px;
+		right: 11px;
+		top: 1080px;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		line-height: 40px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+.todolist {
+	position: absolute;
+	top: 250px;
+	left: 200px;
+}
+
+.completelist {
+	position: absolute;
+	top: 250px;
+	left: 1005px;
+}
+
+.todos {
+	padding-bottom: 20px;
+}
