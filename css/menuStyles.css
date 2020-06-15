@@ -6,6 +6,7 @@ html {
  	-o-background-size: cover;
  	background-size: cover;
 	position:relative;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .sidenav {
@@ -45,7 +46,7 @@ html {
 
 .sidenav-extended {
 	display: none;
-	top: 8px;
+	top: 0px;  /* Rashaad: I changed the value you here from 8px to 0px for aesthetic purposes */
 	width: 554px;
 	height: 100%;
 	background-image: url("../assets/Sidenav-Extended.png");
