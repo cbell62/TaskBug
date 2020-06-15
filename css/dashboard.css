@@ -16,6 +16,9 @@
 		font-size: 45px;
 		color: rgba(255,255,255,1);
 	}
+ol{
+	list-style-type: none;
+}
 .To_Do_Class {
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
 		left: 245px;
