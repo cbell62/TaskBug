@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+.overlay {
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.Completed_Class {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+		left: 1060px;
+		top: 181px;
+		position: absolute;
+		overflow: visible;
+		width: 227px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Trebuchet MS;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+		z-index:3;
+	}
+ol{
+	list-style-type: none;
+}
+.To_Do_Class {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.478));
+		left: 245px;
+		top: 178px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Trebuchet MS;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+.requestHelp {
+		position: absolute;
+		left: 310px;
+		overflow: visible;
+		cursor: pointer;
+}
+
+.taskFontPreset {
+	
+		left: 32px;
+		top: 26px;
+		position: absolute;
+		overflow: visible;
+		width: 183px;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -8px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		color: rgba(38,38,38,1);
+}
+
+.LOGO5 {
+		opacity: 0.71;
+		position: absolute;
+		height: 95px;
+		right: 11px;
+		top: 11px;
+		overflow: visible;
+	}
+
+.Logout{
+		position: absolute;
+		right: 150px;
+		top: 45px;
+		overflow: visible;
+}
+
+.copyright_ {
+		opacity: 0.71;
+		position: absolute;
+		height: 30px;
+		right: 11px;
+		top: 1080px;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		line-height: 40px;
+		text-align: center;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+.todolist {
+	position: absolute;
+	top: 250px;
+	left: 200px;
+}
+
+.completelist {
+	position: absolute;
+	top: 250px;
+	left: 1005px;
+	z-index: 3;
+}
+button {   
+       background-color: white;   
+       	width: 100%;    
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;  
+        }   
+
+.container {   
+        padding: 25px;   
+        background-color: white; 
+	position: absolute;
+	z-index: 9;
+	top: 500px;
+	right: 70%;
+	width:450px
+    }  
+p 
+{
+font-size:20pt;
+font-size:normal;
+text-align: center;
+color: #8D4F42;
+}
+
+a
+{
+text-decoration:none;
+color: #8D4F42;
+font-size: 17px
+}
+
+.reviewed {
+	position: absolute;
+	top: 570px;
+	left: 1005px;
+	z-index:0;
+}
+
+.todos {
+	padding-bottom: 20px;
+}
