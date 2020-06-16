@@ -362,12 +362,53 @@ ol{
 	right: 600px;
 }
 
+.todolistr {
+	position: absolute;
+	top: 250px;
+	right: 665px;
+}
+
 .completelist {
 	position: absolute;
 	top: 250px;
 	right: 50px;
 }
 
+.rm{
+	position: absolute;
+	right:1300px;
+	top:400px;
+}
+
+.m{
+	position: absolute;
+	right:1170px;
+	top:400px;
+}
+
+.c1{
+	position: absolute;
+	right: 1540px;
+	top:570px;
+	cursor: pointer;
+
+}
+.c2{
+	position: absolute;
+	right: 1420px;
+	top:570px;
+	cursor: pointer;
+
+}
+.c3{
+	position: absolute;
+	right: 1420px;
+	top:520px;
+	cursor: pointer;
+
+}
+
 .todos {
 	padding-bottom: 20px;
 }
+
