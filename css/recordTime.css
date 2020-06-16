@@ -47,9 +47,9 @@ body {
 }
 
 .login {
-  padding: 50px 25px;
+  padding: 60px 35px;
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header {
@@ -86,14 +86,23 @@ body {
   border-color: #534bae;
 }
 
-.footer {
-	padding: 35px;
+
+.control button{
+	text-align: center;
+  padding: 5px;
+  position: relative;
+  height: 20px;
+  width: 40%;
+}
+
+.submit {
+	padding: 15px;
   position: relative;
   height: 40px;
   width: 100%;
 }
 
-.footer button {
+.submit button {
   position: absolute;
   padding: 10px;
   min-width: 100px;
@@ -106,6 +115,6 @@ body {
   transition: 0.4s;
 }
 
-.footer button:hover {
+.submit button:hover {
   filter: brightness(1.2);
 }
