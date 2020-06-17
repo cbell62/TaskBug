@@ -44,6 +44,7 @@ html {
 	position: absolute;
 	left: 600px;
 	top:250px;
+	cursor:pointer;
 }
 
 .z5{
@@ -56,6 +57,7 @@ html {
 	position: absolute;
 	left: 250px;
 	top: 1500px;
+	cursor:pointer;
 }
 
 .dropbtn{
