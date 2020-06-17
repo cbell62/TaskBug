@@ -1,6 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
 
+.calu{
+	position:absolute;
+	left:900px;
+	top: 10px;
+}
+
+.ccc{
+	position: absolute;
+	right: 100px;
+	top: 950px;
+}
+
+.cc{
+	position: absolute;
+	left:1650px;
+	top:180px;
+}
+
+.cb1{
+	position: absolute;
+	left:1740px;
+	top:300px;
+	width: 50px;
+	height: 50px;
+	background-color: #787878
+}
+
+.cb2{
+	position: absolute;
+	left:1740px;
+	top:760px;
+	width: 50px;
+	height: 50px;
+	background-color: #787878
+}
+
+.cb3{
+	position: absolute;
+	left:1740px;
+	top:615px;
+	width: 50px;
+	height: 50px;
+	background-color: #787878
+}
+
+.cb4{
+	position: absolute;
+	left:1740px;
+	top:459px;
+	width: 50px;
+	height: 50px;
+	background-color: #787878
+}
+
 .Completed_Class {
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
 		left: 1060px;
