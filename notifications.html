@@ -8,12 +8,14 @@
 	<link rel="stylesheet" href="css/notificationStyles.css">
 	<script type="text/javascript" src="js/notifications.js"></script>
 	<script type="text/javascript" src="js/time.js"></script>
+	<link rel="stylesheet" href="css/profileSet.css">
+	<link rel="stylesheet" href="css/recordTime.css">
 </head>
 
 <body>
 	<div class="sidenav">
 		<div class="profileSection">
-			<a href="#profileSetup"><img class="exampleProfilePic" src="assets/Profile_Img.png" alt="Profile Image"></a>
+			<a href="#profileSetup" onClick="profileSet()"><img class="exampleProfilePic" src="assets/Profile_Img.png" alt="Profile Image"></a>
 		</div>
 		
 		<div class="buttonGroup">
@@ -48,6 +50,54 @@
 			<a id="logoutButton" href="HomePage.html">LOG OUT</a>
 		</div>
 	</div>
+	
+		<!-- Record Time -->
+	<div class="overlay">
+      <div class="login">
+        <div class="header">
+          <h1>Time</h1>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="body">
+    		<form action="#" class="form">
+				<input type="text" placeholder="Start Time (Hrs:Mins)" />
+            	<input type="text" placeholder="Finish Time (Hrs:Mins)" />
+          	</form>
+        </div>
+	
+		  
+        <div class="submit" onClick="recordTime()">
+          <button>Record</button>
+        </div>
+	
+      </div>
+    </div>
+	<!-- Record Time End -->
+	
+	<!-- Profile Setup -->
+	<div class="over">
+      <div class="login">
+        <div class="header">
+          <h1>Profile</h1>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="body">
+    		<form action="#" class="form">
+				<input type="text" placeholder="First Name" />
+            	<input type="text" placeholder="Last Name" />
+				<input type="email" placeholder="Email" />
+            	<input type="text" placeholder="ID" />
+          	</form>
+        </div>
+	
+		  
+        <div class="submit" onClick="profileSet()">
+          <button>Save Changes</button>
+        </div>
+	
+      </div>
+    </div>
+	<!-- Profile Setup End -->
 	
 	<div class="notificationsPanel">
 		<div class="notifications">

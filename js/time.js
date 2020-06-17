@@ -8,4 +8,9 @@
       document.querySelector(".overlay").classList.toggle("open");
  }
 
+ function profileSet() {
+      document.querySelector(".over").classList.toggle("open");
+ }
+
+
 
