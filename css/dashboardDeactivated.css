@@ -16,6 +16,48 @@ html {
 	left:600px;
 }
 
+.z{
+	position: absolute;
+	left: 220px;
+	top:20px;
+}
+
+.zz{
+	position: absolute;
+	left: 250px;
+	top:250px;
+}
+
+.z2{
+	position: absolute;
+	left: 250px;
+	top:950px;
+}
+
+.z3{
+	position: absolute;
+	left: 600px;
+	top:950px;
+}
+
+.z4{
+	position: absolute;
+	left: 600px;
+	top:250px;
+}
+
+.z5{
+	position: absolute;
+	left: 950px;
+	top:950px;
+}
+
+.z6{
+	position: absolute;
+	left: 250px;
+	top: 1500px;
+}
+
 .dropbtn{
 	outline: none;
 		border: none;
